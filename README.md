@@ -21,21 +21,17 @@ Please follow the below instructions to run this branch in your machine:
 
 2. Clone this repository -
    ```sh
-   git clone https://github.com/Learn-with-Sumit/rnext.git
+   git clone https://github.com/FARDIN98/Tasker
    ```
 3. Go to the cloned project directory
    ```sh
-   cd rnext
+   cd Tasker
    ```
-4. Checkout/switch to branch 2.10
-   ```sh
-   git checkout 2.10
-   ```
-5. Just run this command to install node dependencies
+4. Just run this command to install node dependencies
    ```sh
    npm i
    ```
-6. Just run this command
+5. Just run this command
    ```sh
    npm run dev
    ```

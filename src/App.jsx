@@ -1,12 +1,16 @@
 import Footer from "./Footer";
 import Header from "./Header";
 import Hero from "./Hero";
+import TaskBoard from "./Task/TaskBoard";
 
 function App() {
   return (
     <>
       <Header />
-      <Hero />
+      <div className="flex flex-col justify-center items-center">
+        <Hero />
+        <TaskBoard />
+      </div>
       <Footer />
     </>
   );
